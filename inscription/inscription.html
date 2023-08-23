@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription MIT</title>
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-image: url(misa.png);
+        }
+        .information{
+            height: 65vw;
+            width: 68vw;
+            background-color: grey;
+            position: relative;
+            margin-left: 30vw;
+            line-height: 4vw;
+            border-radius: 10%;
+            box-shadow: 0.5vw 0.5vw 0.5vw black;
+            border-style: solid;
+            border-width: 0.2vw;
+        }
+        .titre{
+            font-style: italic;
+            font-family: cursive;
+            font-size: 3vw;
+            text-decoration: underline;
+            color: red;
+            padding-left:25vw;
+        }
+        .entrer{
+            position: relative;
+            left: 6vw;
+            font-size: 2vw;
+        }
+        .entrer2{
+            position: relative;
+            left: 6vw;
+            width: 27vw;
+            font-size: 2vw;
+        }
+        .entrer3{
+            position: relative;
+            left: 6vw;
+            width: 27.5vw;
+            font-size: 2vw;
+        }
+        .entrer4{
+            position: relative;
+            left: 6vw;
+            width: 27.5vw;
+            font-size: 2vw;
+        }
+        .soumettre{
+            background-color: green;
+            color: red;
+            position: relative;
+            top: 5vw;
+            left:25vw;
+            height: 4vw;
+            width: 20vw;
+        }
+        .science{
+            position: relative;
+            height: 20vw;
+            width: 20vw;
+            bottom: 55vw;
+            left: -19vw;
+            text-align: center;
+        }       
+    </style>
+</head>
+<body>
+    <div class="information">
+        <h class="titre">INSCRIPTION</h>
+        <form method="post">
+            <table>
+                <tr>
+                    <td class="entrer">Nom</td>
+                    <td><input type="text" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Prenom</td>
+                    <td><input type="text" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Date de Naissanve</td>
+                    <td><input type="date" class="entrer2"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Sexe</td>
+                    <td>
+                        <select name="option_sexe" class="entrer3">
+                            <option value="male">Homme</option>
+                            <option value="fem">Femelle</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="entrer">Serie du BACC</td>
+                    <td>
+                        <select name="option_value" class="entrer4">
+                            <option value="1">S</option>
+                            <option value="2">C</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="entrer">Anne d'obtention du BACC</td>
+                    <td><input type="number" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Telephone</td>
+                    <td><input type="number" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Email</td>
+                    <td><input type="email" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">N°Matricule</td>
+                    <td><input type="number" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Centre du BACC</td>
+                    <td><input type="text" class="entrer"></td>
+                </tr>
+                <tr>
+                    <td class="entrer">Date d'aujourd'hui</td>
+                    <td><input type="date" class="entrer2"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="envoyer" class="soumettre">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div class="science">
+            <img src="science.jpg" width="200vw" height="200vw">
+        </div>
+    </div>
+</body>
+</html>
